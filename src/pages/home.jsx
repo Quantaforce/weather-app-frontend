@@ -7,7 +7,7 @@ export default function Home(){
   const {user}=useContext(AuthContext);
   return(<>
     <div className="px-6 flex justify-between py-4">
-      <div className="text-2xl font-bold">WeatherNow</div> 
+      <div className="text-2xl font-bold">SkyCast</div> 
       {!user ?
         <div>
           <Button variant="ghost" onClick={()=>navigate('/login')} className="">Login</Button>
